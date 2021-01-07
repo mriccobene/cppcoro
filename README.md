@@ -1,8 +1,8 @@
-## Warning
+## Disclaimer
 
-This repository [mriccobene/cppcoro](https://github.com/andreasbuhr/cppcoro) is a fork of the original [cppcoro library](https://github.com/lewissbaker/cppcoro) library.
+This repository is a fork of the original [cppcoro library](https://github.com/lewissbaker/cppcoro) library.
 
-The differences to the original cppcoro are:
+Changes were introduced in order to use the latest C++20 coroutine compliant Visual Studio compiler:
 * Replace <experimental/coroutine> with <coroutine>
 * Replace std::experimental:: with std::
 * Add Visual Studio 2019 project (v142, /std:c++latest)
